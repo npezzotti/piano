@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="piano">
+        <div class="piano-octave">
+            <button class="white-key" data-note="c-2"></button>
+            <button class="black-key c-sharp" data-note="c-sharp-2"></button>
+            <button class="white-key" data-note="d-2"></button>
+            <button class="black-key d-sharp" data-note="d-sharp-2"></button>
+            <button class="white-key" data-note="e-2"></button>
+            <button class="white-key" data-note="f-2"></button>
+            <button class="black-key f-sharp" data-note="f-sharp-2"></button>
+            <button class="white-key" data-note="g-2"></button>
+            <button class="black-key g-sharp" data-note="g-sharp-2"></button>
+            <button class="white-key" data-note="a-2"></button>
+            <button class="black-key a-sharp" data-note="a-sharp-2"></button>
+            <button class="white-key" data-note="b-2"></button>
+        </div>
+        <div class="piano-octave">
+            <button class="white-key" data-note="c-3"></button>
+            <button class="black-key c-sharp" data-note="c-sharp-3"></button>
+            <button class="white-key" data-note="d-3"></button>
+            <button class="black-key d-sharp" data-note="d-sharp-3"></button>
+            <button class="white-key" data-note="e-3"></button>
+            <button class="white-key" data-note="f-3"></button>
+            <button class="black-key f-sharp" data-note="f-sharp-3"></button>
+            <button class="white-key" data-note="g-3"></button>
+            <button class="black-key g-sharp" data-note="g-sharp-3"></button>
+            <button class="white-key" data-note="a-3"></button>
+            <button class="black-key a-sharp" data-note="a-sharp-3"></button>
+            <button class="white-key" data-note="b-3"></button>
+        </div>
+        <div class="piano-octave">
+            <button class="white-key" data-note="c-4"></button>
+            <button class="black-key c-sharp" data-note="c-sharp-4"></button>
+            <button class="white-key" data-note="d-4"></button>
+            <button class="black-key d-sharp" data-note="d-sharp-4"></button>
+            <button class="white-key" data-note="e-4"></button>
+            <button class="white-key" data-note="f-4"></button>
+            <button class="black-key f-sharp" data-note="f-sharp-4"></button>
+            <button class="white-key" data-note="g-4"></button>
+            <button class="black-key g-sharp" data-note="g-sharp-4"></button>
+            <button class="white-key" data-note="a-4"></button>
+            <button class="black-key a-sharp" data-note="a-sharp-4"></button>
+            <button class="white-key" data-note="b-4"></button>
+        </div>
+        <div class="piano-octave">
+            <button class="white-key" data-note="c-5"></button>
+            <button class="black-key c-sharp" data-note="c-sharp-5"></button>
+            <button class="white-key" data-note="d-5"></button>
+            <button class="black-key d-sharp" data-note="d-sharp-5"></button>
+            <button class="white-key" data-note="e-5"></button>
+            <button class="white-key" data-note="f-5"></button>
+            <button class="black-key f-sharp" data-note="f-sharp-5"></button>
+            <button class="white-key" data-note="g-5"></button>
+            <button class="black-key g-sharp" data-note="g-sharp-5"></button>
+            <button class="white-key" data-note="a-5"></button>
+            <button class="black-key a-sharp" data-note="a-sharp-5"></button>
+            <button class="white-key" data-note="b-5"></button>
+            <button class="white-key" data-note="c-6"></button>
+        </div>
+    </div>
+    <audio src="./piano_samples/c2.wav" id="c-2"></audio>
+    <audio src="./piano_samples/c_sharp2.wav" id="c-sharp-2"></audio>
+    <audio src="./piano_samples/d2.wav" id="d-2"></audio>
+    <audio src="./piano_samples/d_sharp2.wav" id="d-sharp-2"></audio>
+    <audio src="./piano_samples/e2.wav" id="e-2"></audio>
+    <audio src="./piano_samples/f2.wav" id="f-2"></audio>
+    <audio src="./piano_samples/f_sharp2.wav" id="f-sharp-2"></audio>
+    <audio src="./piano_samples/g2.wav" id="g-2"></audio>
+    <audio src="./piano_samples/g_sharp2.wav" id="g-sharp-2"></audio>
+    <audio src="./piano_samples/a2.wav" id="a-2"></audio>
+    <audio src="./piano_samples/a_sharp2.wav" id="a-sharp-2"></audio>
+    <audio src="./piano_samples/b2.wav" id="b-2"></audio>
+    <audio src="./piano_samples/c3.wav" id="c-3"></audio>
+    <audio src="./piano_samples/c_sharp3.wav" id="c-sharp-3"></audio>
+    <audio src="./piano_samples/d3.wav" id="d-3"></audio>
+    <audio src="./piano_samples/d_sharp3.wav" id="d-sharp-3"></audio>
+    <audio src="./piano_samples/e3.wav" id="e-3"></audio>
+    <audio src="./piano_samples/f3.wav" id="f-3"></audio>
+    <audio src="./piano_samples/f_sharp3.wav" id="f-sharp-3"></audio>
+    <audio src="./piano_samples/g3.wav" id="g-3"></audio>
+    <audio src="./piano_samples/g_sharp3.wav" id="g-sharp-3"></audio>
+    <audio src="./piano_samples/a3.wav" id="a-3"></audio>
+    <audio src="./piano_samples/a_sharp3.wav" id="a-sharp-3"></audio>
+    <audio src="./piano_samples/b3.wav" id="b-3"></audio>
+    <audio src="./piano_samples/c4.wav" id="c-4"></audio>
+    <audio src="./piano_samples/c_sharp4.wav" id="c-sharp-4"></audio>
+    <audio src="./piano_samples/d4.wav" id="d-4"></audio>
+    <audio src="./piano_samples/d_sharp4.wav" id="d-sharp-4"></audio>
+    <audio src="./piano_samples/e4.wav" id="e-4"></audio>
+    <audio src="./piano_samples/f4.wav" id="f-4"></audio>
+    <audio src="./piano_samples/f_sharp4.wav" id="f-sharp-4"></audio>
+    <audio src="./piano_samples/g4.wav" id="g-4"></audio>
+    <audio src="./piano_samples/g_sharp4.wav" id="g-sharp-4"></audio>
+    <audio src="./piano_samples/a4.wav" id="a-4"></audio>
+    <audio src="./piano_samples/a_sharp4.wav" id="a-sharp-4"></audio>
+    <audio src="./piano_samples/b4.wav" id="b-4"></audio>
+    <audio src="./piano_samples/c5.wav" id="c-5"></audio>
+    <audio src="./piano_samples/c_sharp5.wav" id="c-sharp-5"></audio>
+    <audio src="./piano_samples/d5.wav" id="d-5"></audio>
+    <audio src="./piano_samples/d_sharp5.wav" id="d-sharp-5"></audio>
+    <audio src="./piano_samples/e5.wav" id="e-5"></audio>
+    <audio src="./piano_samples/f5.wav" id="f-5"></audio>
+    <audio src="./piano_samples/f_sharp5.wav" id="f-sharp-5"></audio>
+    <audio src="./piano_samples/g5.wav" id="g-5"></audio>
+    <audio src="./piano_samples/g_sharp5.wav" id="g-sharp-5"></audio>
+    <audio src="./piano_samples/a5.wav" id="a-5"></audio>
+    <audio src="./piano_samples/a_sharp5.wav" id="a-sharp-5"></audio>
+    <audio src="./piano_samples/b5.wav" id="b-5"></audio>
+    <audio src="./piano_samples/c6.wav" id="c-6"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

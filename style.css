@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(247, 244, 244), rgb(37, 37, 37));
+}
+
+#piano {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.piano-octave {
+    display: flex;
+    position: relative;
+}
+
+.white-key {
+    width: 40px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 5% 5%;
+    cursor: pointer;
+    outline: none;
+    border: solid .4px rgb(182, 182, 182);
+}
+
+.white-key.active {
+    background-color: rgb(233, 233, 233);
+}
+
+.black-key {
+    position: absolute;
+    height: 80px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 0 0 8% 8%;
+    background: linear-gradient(black, rgb(185, 185, 185));
+    outline: none;
+}
+
+.black-key.active {
+    background: linear-gradient(black, rgb(160, 160, 160));
+}
+
+.c-sharp {
+    left: 28px;
+}
+
+.d-sharp {
+    left: 68px;
+}
+
+.f-sharp {
+    left: 148px;
+}
+
+.g-sharp {
+    left: 188px;
+}
+
+.a-sharp {
+    left: 228px;
+}
