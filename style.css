@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(247, 244, 244), rgb(37, 37, 37));
+    background: white;
 }
 
 #piano {
@@ -30,7 +30,6 @@ body {
     border-radius: 0 0 5% 5%;
     cursor: pointer;
     outline: none;
-    border: solid .4px rgb(182, 182, 182);
 }
 
 .white-key.active {
